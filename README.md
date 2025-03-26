@@ -6,7 +6,7 @@
         </picture>
     </a>
     <br>
-    <small>Informing and improving decitionmaking</small>
+    <small>Informing and improving decision-making</small>
 </h1>
 
 🌐 This GitHub project is (currently) a solo venture aimed at simulating and visualizing complex systems in order to make better decisions.
@@ -24,7 +24,7 @@ and aims to ignite a passion for complex adaptive systems.
 
 🤝Feel free to reach out if you wish to collaborate, give feedback, or explore this project together with me! 
 
-
+<!--
 Here is a tree structure of this project as of 16.10.2024:
 ```plaintext
 LambdaSim-7
@@ -201,3 +201,4 @@ LambdaSim-7
     ├── settings.json
     ├── launch.json
     └── tasks.json
+--> 
