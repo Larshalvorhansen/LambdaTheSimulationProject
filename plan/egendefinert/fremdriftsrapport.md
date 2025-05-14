@@ -1,13 +1,13 @@
 # Fremdriftsrapport
 
-| Prosjekt:                            |                              |
-|--------------------------------------|------------------------------|
-| Student:                             |                              |
-| Veileder:                            |                              |
-| Kontaktperson hos problemeier:       |                              |
-| Dato:                                |                              |
-| Dato for neste fremdriftsrapport:    |                              |
-| Rapport nummer:                      |                              |
+| Prosjekt:                         |     |
+| --------------------------------- | --- |
+| Student:                          |     |
+| Veileder:                         |     |
+| Kontaktperson hos problemeier:    |     |
+| Dato:                             |     |
+| Dato for neste fremdriftsrapport: |     |
+| Rapport nummer:                   |     |
 
 ---
 
@@ -38,3 +38,4 @@ Skriv om det ble gjort noen endringer og hvilke endringer. Vær konkret.
 ## 5 Oppdatert prosjektplan
 
 Skriv siste versjon av prosjektplanen. Dersom den er på nett kan du ta med en lenke. Lever helst pdf.
+

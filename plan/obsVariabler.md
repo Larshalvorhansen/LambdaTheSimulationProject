@@ -1,5 +1,7 @@
 ### Omegaverksted (OV):
-- Agenter: 
+
+- Agenter:
+
   - Mennesker på OV
     - Matlyst [0-1]
     - Andel penger []
@@ -7,11 +9,12 @@
     - Humør [0-1]
     - medlemm/ikke medlem [Binær]
 
-- Omgivelser: 
+- Omgivelser:
+
   - Lydnivå på OV
   - Klokkeslett
-    - Antall forelesingner som pågår * avstand til forelesiningsal
-    - Antall forelesingner som pågår * sansynelighet for at 
+    - Antall forelesingner som pågår \* avstand til forelesiningsal
+    - Antall forelesingner som pågår \* sansynelighet for at
   - Dag
     - Dager igjen til eksamen
     - Dager siden helgen
@@ -22,8 +25,9 @@
   - Temperatur ute
   - Inflasjon
 
-- Inndata: 
+- Inndata:
+
   - Historisk OV salgsdata
 
-- Det som skal predikeres: 
+- Det som skal predikeres:
   - Salg på OV sin kiosk (OBS)

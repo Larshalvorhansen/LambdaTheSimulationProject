@@ -1,11 +1,11 @@
 # Final report
 
-| Project:                |                              |
-|-------------------------|------------------------------|
-| Student:                |                              |
-| Professional supervisor:|                              |
-| Contact person:         |                              |
-| Date:                   |                              |
+| Project:                 |     |
+| ------------------------ | --- |
+| Student:                 |     |
+| Professional supervisor: |     |
+| Contact person:          |     |
+| Date:                    |     |
 
 ---
 
@@ -32,7 +32,7 @@ Siste versjon av spesifikasjonen.
 
 ## 2 Løsning
 
-Hvordan problemet er løst. I mange prosjekter vil det være naturlig å dele dette punktet inn i flere steg, hvor en går fra overordnede valg til detaljer, fra prinsipiell løsning til spesifikk løsning. 
+Hvordan problemet er løst. I mange prosjekter vil det være naturlig å dele dette punktet inn i flere steg, hvor en går fra overordnede valg til detaljer, fra prinsipiell løsning til spesifikk løsning.
 
 En mulig inndeling kan være **konsept**, **design** og **implementering**.
 
@@ -40,7 +40,7 @@ En mulig inndeling kan være **konsept**, **design** og **implementering**.
 
 ## 3 Verifikasjon og test
 
-Her dokumenteres hvordan systemet er testet. Resultat av test og drøfting av potensielle forbedringer. 
+Her dokumenteres hvordan systemet er testet. Resultat av test og drøfting av potensielle forbedringer.
 
 Det er viktig å få med at systemet eller deler av systemet virker eller ikke virker. Dersom det er mulig å tallfeste **hvor godt** systemet virker, er det bra.
 
@@ -58,4 +58,5 @@ Kort oppsummering av **hvordan** løsningen løser problemstillingen og, om muli
 
 ## Vedlegg A
 
-*Dette kan godt bli den største delen av rapporten. For den som skal videreutvikle, modifisere eller reparere systemet er detaljer viktig. Detaljer tar plass, og bør plasseres i vedlegg. Vedleggene nummereres alfabetisk fra A.*
+_Dette kan godt bli den største delen av rapporten. For den som skal videreutvikle, modifisere eller reparere systemet er detaljer viktig. Detaljer tar plass, og bør plasseres i vedlegg. Vedleggene nummereres alfabetisk fra A._
+
