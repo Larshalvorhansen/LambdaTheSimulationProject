@@ -1,2 +1,9 @@
-- [x] Se igjennom ALLE eksemplene i NetLogo for å lære netlogo og utforske feltet.
+# Plan for idag
 
+- [ ] Lage en database i sql eller mysql basert på google sheets arket
+- [ ] Plotte det med python
+- [ ] Designe en "datapipeline"
+  - [ ] Hente
+  - [ ] Prosessere
+  - [ ] Ekstrahere?
+- [ ]
