@@ -1,5 +1,7 @@
-# **Thesis Proposal**  
-## **Title**  
+# **Thesis Proposal**
+
+## **Title**
+
 **Reimagining Monetary Systems: A Comparative Simulation of Commercial and Central-Bank-Based Money Creation with Agent-Based Modeling**
 
 ---
@@ -9,6 +11,7 @@
 Contemporary monetary systems rely heavily on commercial banks to create money through lending, an approach that has shown repeated systemic fragility and a tendency toward unsustainable debt accumulation. Trond Andresen’s doctoral thesis proposes a radical restructuring of this system, suggesting that only the central bank should be allowed to create money, while commercial banks function solely as lending agents of pre-existing funds.
 
 This thesis aims to explore that proposal by combining:
+
 - **System dynamics modeling** (à la Andresen),
 - **Agent-based modeling** (drawing on complexity theory and adaptive systems), and
 - **Empirical simulation and comparison in Python**.
@@ -30,6 +33,7 @@ By embedding **agents** with individual behavior rules—capitalists, households
 ## **Methodology**
 
 ### 1. **Modeling Two Monetary Systems**
+
 - **System A: Current Commercial Bank System**
   - Banks create money through lending
   - Debt grows with interest
@@ -41,24 +45,30 @@ By embedding **agents** with individual behavior rules—capitalists, households
 Both systems will be implemented as dynamic models in Python, with configurable parameters for money supply, interest, repayment rates, GDP growth, and loss rates.
 
 ### 2. **Agent-Based Layer (Complex Adaptive Systems)**
+
 Agents include:
+
 - **Households** (workers and capitalists)
 - **Banks** (commercial or central, depending on system)
 - **Government**
 - **Firms**
 
 Each agent will have:
+
 - **Local decision rules** (e.g., consumption rate, lending preference, pessimism threshold)
 - **Feedback responsiveness** (e.g., slowing spending when losses increase)
 - **Emergent interaction** through markets, credit channels, and production.
 
 ### 3. **Simulation Scenarios**
+
 Run each system under:
+
 - **Baseline conditions**
 - **Shock scenarios** (recession, inflation, asset bubbles)
 - **Policy interventions** (UBI, interest rate controls, deficit spending)
 
 Compare metrics like:
+
 - GDP growth
 - Debt-to-GDP ratio
 - Insolvency rates
@@ -69,6 +79,7 @@ Compare metrics like:
 ---
 
 ## **Tools and Frameworks**
+
 - **Python** (main language)
   - `numpy`, `pandas`, `matplotlib`, `scipy`
   - `mesa` or `agentpy` for agent-based modeling
@@ -79,6 +90,7 @@ Compare metrics like:
 ---
 
 ## **Expected Contributions**
+
 - A novel **simulation-based test** of central-bank-based money creation proposals
 - Integration of **complex systems theory** into monetary economics
 - A **replicable modeling framework** for exploring policy alternatives
@@ -87,15 +99,14 @@ Compare metrics like:
 ---
 
 ## **Timeline (Tentative)**
-| Month | Milestone |
-|-------|-----------|
+
+| Month | Milestone                                                 |
+| ----- | --------------------------------------------------------- |
 | 1     | Literature review: Andresen, MMT, CAS, ABM, debt dynamics |
-| 2     | Basic system dynamics model coded (commercial system) |
-| 3     | Central bank system implemented |
-| 4     | Agent-based layer and calibration |
-| 5     | Scenario simulations and stress tests |
-| 6     | Results analysis and robustness checks |
-| 7     | Writing thesis + polishing codebase |
-| 8     | Final submission + defense prep |
-
-
+| 2     | Basic system dynamics model coded (commercial system)     |
+| 3     | Central bank system implemented                           |
+| 4     | Agent-based layer and calibration                         |
+| 5     | Scenario simulations and stress tests                     |
+| 6     | Results analysis and robustness checks                    |
+| 7     | Writing thesis + polishing codebase                       |
+| 8     | Final submission + defense prep                           |
