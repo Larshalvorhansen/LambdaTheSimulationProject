@@ -9,20 +9,20 @@
     <small>Informing and improving decision-making</small>
 </h1>
 
-🌐 This GitHub project is (currently) a solo venture aimed at simulating and visualizing complex systems in order to make better decisions.
+🌐 This GitHub project is a solo venture aimed at simulating and visualizing complex systems in order to make better decisions.
 
 <!-- 🌱 It starts simply with an agent moving randomly and eating randomly generated food, laying the foundation for emergent complexity. -->
 
-👥 The repository serves as a starting point for my next big project where the goal is to simulate mechanisms in society. 
-🏙️ I.e. testing various economic/political models on simulated "agents" and comparing results etc.
+👥 The repository serves as a starting point where the end goal is to simulate macroeconomic effects in society in general using agent based modeling.
+🏙️ I.e. testin potential outcomes of various economic/political policies on simulated "agents".
 
-🎨The simulation seeks to be both visually captivating and informative, 
-with easily editable parameters to encourage user experimentation. 
+🎨The simulation seeks to be both visually informative aspects easily editable parameters enableing a rapid human in the loop system.
 
-🔥Targeting a wide audience, from friends to industry professionals, 
+<!--🔥Targeting a wide audience, from friends to industry professionals,
 and aims to ignite a passion for complex adaptive systems.
+-->
 
-🤝Feel free to reach out if you wish to collaborate, give feedback, or explore this project together with me! 
+<p>🤝 Feel free to <a href="mailto:larshalvorhansen1@gmail.com">get in touch</a> if you want to collaborate, give feedback, or explore this project together with me!</p>
 
 <!--
 Here is a tree structure of this project as of 16.10.2024:
@@ -201,4 +201,4 @@ LambdaSim-7
     ├── settings.json
     ├── launch.json
     └── tasks.json
---> 
+-->
