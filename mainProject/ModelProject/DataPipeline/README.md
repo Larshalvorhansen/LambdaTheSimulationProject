@@ -52,11 +52,7 @@ Examples include:
 - FRED
 - Eurostat
 
-## 🌐 Identify Free Data Sources
-
-Start with well-maintained open datasets. Some goldmines include:
-
-### 🌍 Global
+## 🌐 Free Data Sources
 
 - [World Bank Open Data](https://data.worldbank.org) – Extensive economic and development data
 - [IMF Data](https://data.imf.org) – International Monetary Fund economic and financial data
