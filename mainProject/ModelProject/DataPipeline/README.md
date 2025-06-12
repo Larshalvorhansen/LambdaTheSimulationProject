@@ -2,6 +2,9 @@
 
 The goal of this data pipeline is to build a **free, continuously updated, and reliable database** that aggregates key metrics from multiple sources.
 
+Very good and helpfull video for this:
+[Building a data pipeline – ByteByteGo](https://www.youtube.com/watch?v=kGT4PcTEPP8)
+
 ## 🎯 Objectives
 
 - Centralize diverse economic indicators into one unified database
