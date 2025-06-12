@@ -52,19 +52,6 @@ Examples include:
 - FRED
 - Eurostat
 
-## ⚙️ Planned Architecture (ETL)
-
-```mermaid
-flowchart LR
-    A[Data Source APIs / CSVs / Scrapers]
-    B[Python Scripts]
-    C[ETL Jobs (scheduled)]
-    D[Cleaned Datasets (CSV / SQLite / Parquet)]
-    E[Central Database (Postgres / DuckDB)]
-    F[Frontend / Dashboard / API Access]
-
-    A --> B --> C --> D --> E --> F
-
 ## 🌐 Identify Free Data Sources
 
 Start with well-maintained open datasets. Some goldmines include:
@@ -76,12 +63,11 @@ Start with well-maintained open datasets. Some goldmines include:
 - [UNdata](https://data.un.org) – United Nations statistical databases
 - [OECD Data](https://data.oecd.org) – Data on economy, society, and environment from developed countries
 - [Eurostat](https://ec.europa.eu/eurostat) – European Union statistics
-- [Trading Economics](https://tradingeconomics.com) – Macro indicators and forecasts *(limited free API usage)*
+- [Trading Economics](https://tradingeconomics.com) – Macro indicators and forecasts _(limited free API usage)_
 - [Our World in Data](https://ourworldindata.org) – Global development, health, energy, and more
-- [Quandl / Open Financial Data Project](https://www.quandl.com) – Various financial and economic datasets *(many free)*
+- [Quandl / Open Financial Data Project](https://www.quandl.com) – Various financial and economic datasets _(many free)_
 
 ### 📈 Market / Economic Indicators
 
 - [FRED – Federal Reserve Economic Data](https://fred.stlouisfed.org) – U.S. economic time series
 - [EIA – U.S. Energy Information Administration](https://www.eia.gov/opendata/) – Energy prices, oil, and other related data
-```
