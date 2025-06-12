@@ -1,6 +1,6 @@
 # 📊 Data Pipeline Overview
 
-The goal of this module is to build a **free, continuously updated, and reliable database** that aggregates key metrics from multiple sources.
+The goal of this data pipeline is to build a **free, continuously updated, and reliable database** that aggregates key metrics from multiple sources.
 
 ## 🎯 Objectives
 
