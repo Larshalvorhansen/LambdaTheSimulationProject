@@ -2,7 +2,7 @@
 
 The main project follows the structure in the diagram below:
 
-<img src="predictionPipeline2.png" alt="Project Flowchart" width="400"/>
+<img src="predictionPipelineV2.png" alt="Project Flowchart" width="400"/>
 
 ---
 
