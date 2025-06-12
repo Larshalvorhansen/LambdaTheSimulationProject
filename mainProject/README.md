@@ -2,7 +2,7 @@
 
 The main project follows the structure in the diagram below:
 
-![Project Flowchart](predictionPipelineV2.png) <!-- Replace with actual image path or markdown image syntax -->
+<img src="predictionPipeline2.png" alt="Project Flowchart" width="400"/>
 
 ---
 
