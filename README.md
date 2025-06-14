@@ -203,10 +203,3 @@ LambdaSim-7
     └── tasks.json
 -->
 
-<h1>Bookmark!</h1>
-Where I left off last time: 
-I was working on the data pipeline.
-Todo: 
-- Make the scrape.py file working.
-    - the goal is to fetch/scrape data from website
-    - and store it in a sqlite .db file. 
