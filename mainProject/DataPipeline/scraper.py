@@ -9,16 +9,20 @@ install()
 console = Console()
 
 
-url = "https://raw.githubusercontent.com/owid/owid-datasets/master/datasets/Population%20(OWID%20based)/Population%20(OWID%20based).csv"
+# Use a super simple and reliable CSV URL
+url = "https://people.sc.fsu.edu/~jburkardt/data/csv/hw_200.csv"
 
+# Load the CSV
 df = pd.read_csv(url)
 
-conn = sqlite3.connect("owid_data.db")
+# Print a sample
+print(df.head())
 
-df.to_sql("population", conn, if_exists="replace", index=False)
-
-sample = pd.read_sql("SELECT * FROM population LIMIT 5;", conn)
-print(sample)
+# Save to SQLite
+conn = sqlite3.connect("data.db")
+df.to_sql("simple_table", conn, if_exists="replace", index=False)
+conn.close()
+print("Done")
 
 
 conn.close()

@@ -10,13 +10,14 @@
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = import nixpkgs { inherit system; };
-        pythonEnv =
-          pkgs.python3.withPackages (ps: with ps; [ pandas requests rich ]);
+        pythonEnv = pkgs.python3.withPackages
+          (ps: with ps; [ pandas requests rich pyperclip ]);
       in {
-        devShell = pkgs.mkShell {
+        devShells.default = pkgs.mkShell {
           buildInputs = [ pythonEnv ];
+
           shellHook = ''
-            echo "🐍 [bold cyan]Python env ready with rich output[/bold cyan]"
+            echo "Python dev environment ready. pandas, requests, rich, pyperclip"
           '';
         };
       });
