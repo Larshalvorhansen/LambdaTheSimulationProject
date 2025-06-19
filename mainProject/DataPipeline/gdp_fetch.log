@@ -1,0 +1,39 @@
+2025-06-19 18:42:57,963 - INFO - ==== GDP Fetch Script Started ====
+2025-06-19 18:42:58,040 - INFO - Fetching GDP data from 2000 to 2025
+2025-06-19 18:42:58,040 - ERROR - Failed to fetch data
+Traceback (most recent call last):
+  File "/Users/lhh/Documents/LambdaTheSimulationProject/mainProject/DataPipeline/getWB.py", line 32, in fetch_gdp_data
+    df = wbdata.get_dataframe(indicator, data_date=dates, convert_date=True)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lhh/Documents/LambdaTheSimulationProject/mainProject/DataPipeline/.venv/lib/python3.12/site-packages/decorator.py", line 234, in fun
+    args, kw = fix(args, kw, sig)
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/lhh/Documents/LambdaTheSimulationProject/mainProject/DataPipeline/.venv/lib/python3.12/site-packages/decorator.py", line 204, in fix
+    ba = sig.bind(*args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/g5q4xg2zbyb6fxaj7wg31rm4hgvyx022-python3-3.12.10/lib/python3.12/inspect.py", line 3280, in bind
+    return self._bind(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/g5q4xg2zbyb6fxaj7wg31rm4hgvyx022-python3-3.12.10/lib/python3.12/inspect.py", line 3269, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'data_date'
+2025-06-19 18:42:58,041 - ERROR - Script failed.
+Traceback (most recent call last):
+  File "/Users/lhh/Documents/LambdaTheSimulationProject/mainProject/DataPipeline/getWB.py", line 63, in main
+    df = fetch_gdp_data(START_YEAR, END_YEAR)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lhh/Documents/LambdaTheSimulationProject/mainProject/DataPipeline/getWB.py", line 32, in fetch_gdp_data
+    df = wbdata.get_dataframe(indicator, data_date=dates, convert_date=True)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lhh/Documents/LambdaTheSimulationProject/mainProject/DataPipeline/.venv/lib/python3.12/site-packages/decorator.py", line 234, in fun
+    args, kw = fix(args, kw, sig)
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/lhh/Documents/LambdaTheSimulationProject/mainProject/DataPipeline/.venv/lib/python3.12/site-packages/decorator.py", line 204, in fix
+    ba = sig.bind(*args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/g5q4xg2zbyb6fxaj7wg31rm4hgvyx022-python3-3.12.10/lib/python3.12/inspect.py", line 3280, in bind
+    return self._bind(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/g5q4xg2zbyb6fxaj7wg31rm4hgvyx022-python3-3.12.10/lib/python3.12/inspect.py", line 3269, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'data_date'

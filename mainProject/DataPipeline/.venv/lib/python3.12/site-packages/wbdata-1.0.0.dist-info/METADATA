@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: wbdata
+Version: 1.0.0
+Summary: A library to access World Bank data
+Home-page: https://github.com/OliverSherouse/wbdata
+License: GPL-2.0+
+Keywords: World Bank,data,economics
+Author: Oliver Sherouse
+Author-email: oliver@oliversherouse.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Typing :: Typed
+Provides-Extra: docs
+Provides-Extra: pandas
+Requires-Dist: appdirs (>=1.4,<2.0)
+Requires-Dist: backoff (>=2.2.1,<3.0.0)
+Requires-Dist: cachetools (>=5.3.2,<6.0.0)
+Requires-Dist: dateparser (>=1.2.0,<2.0.0)
+Requires-Dist: decorator (>=5.1.1,<6.0.0)
+Requires-Dist: mkdocs (>=1.5.3,<2.0.0) ; extra == "docs"
+Requires-Dist: mkdocstrings[python] (>=0.24.0,<0.25.0) ; extra == "docs"
+Requires-Dist: pandas (>=1,<3) ; extra == "pandas"
+Requires-Dist: requests (>=2.0,<3.0)
+Requires-Dist: shelved-cache (>=0.3.1,<0.4.0)
+Requires-Dist: tabulate (>=0.8.5,<0.9.0)
+Project-URL: Documentation, https://wbdata.readthedocs.io/
+Project-URL: Repository, https://github.com/OliverSherouse/wbdata
+Description-Content-Type: text/markdown
+
+# wbdata
+
+[![Tests](https://github.com/OliverSherouse/wbdata/actions/workflows/tests.yaml/badge.svg?branch=master)](https://github.com/OliverSherouse/wbdata/actions/workflows/tests.yaml)
+[![Documentation Status](https://readthedocs.org/projects/wbdata/badge/?version=stable)](https://wbdata.readthedocs.io/en/stable/?badge=stable)
+[![PyPI version](https://badge.fury.io/py/wbdata.svg)](https://badge.fury.io/py/wbdata)
+[![Downloads](https://static.pepy.tech/badge/wbdata/month)](https://pepy.tech/project/wbdata)
+
+Wbdata is a simple python interface to find and request information from the
+World Bank's various databases, either as a dictionary containing full metadata
+or as a [pandas](http://pandas.pydata.org) DataFrame or series. Currently,
+wbdata wraps most of the [World Bank
+API](http://data.worldbank.org/developers/api-overview), and also adds some
+convenience functionality for searching and retrieving information.
+
+Documentation is available at <http://wbdata.readthedocs.org/> .
+
