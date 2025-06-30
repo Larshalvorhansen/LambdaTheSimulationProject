@@ -3,7 +3,6 @@
 Data pipeline
 
 - Make working baseline datafetcher for the websites listed below:
-
   - [ ] [World Bank Open Data](https://data.worldbank.org) – Extensive economic and development data
   - [ ] [IMF Data](https://data.imf.org) – International Monetary Fund economic and financial data
   - [ ] [UNdata](https://data.un.org) – United Nations statistical databases
