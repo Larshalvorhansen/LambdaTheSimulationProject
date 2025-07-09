@@ -8,21 +8,20 @@
 
 ## **Background and Motivation**
 
-Contemporary monetary systems rely heavily on commercial banks to create money through lending, an approach that has shown repeated systemic fragility and a tendency toward unsustainable debt accumulation. Trond Andresen’s doctoral thesis proposes a radical restructuring of this system, suggesting that only the central bank should be allowed to create money, while commercial banks function solely as lending agents of pre-existing funds.
+Contemporary monetary systems rely heavily on commercial banks to create money through lending, an approach that has shown repeated systemic fragility and a tendency toward unsustainable debt accumulation. Trond Andresen's doctoral thesis proposes a radical restructuring of this system, suggesting that only the central bank should be allowed to create money, while commercial banks function solely as lending agents of pre-existing funds.
 
-This thesis aims to explore that proposal by combining:
+This thesis aims to explore the outcome of such a proposal by combining:
 
-- **System dynamics modeling** (à la Andresen),
-- **Agent-based modeling** (drawing on complexity theory and adaptive systems), and
-- **Empirical simulation and comparison in Python**.
+- **System dynamics modeling** (from Andresen),
+- **Agent-based modeling** (adressing the dificulties that arise and are described in complexity theory by using adaptive systems)
 
-By embedding **agents** with individual behavior rules—capitalists, households, banks, central banks—we can explore **emergent patterns** under both systems and test **resilience, fairness, efficiency, and stability** in a dynamic economic environment.
+By embedding **agents** with individual behavior rules—capitalists, households, banks, central banks, one can explore **emergent patterns** under both systems (with and without Andresen's proposal) and test **resilience, fairness, efficiency, and stability** of such an economy in a dynamic economic environment.
 
 ---
 
 ## **Research Questions**
 
-1. **How does a central-bank-only money creation system compare to the current commercial bank system in terms of debt buildup, economic stability, and resilience to shocks?**
+1. **How does a central-bank-only driven money creation system compare to the current commercial bank system in terms of debt buildup, economic stability, and resilience to shocks?**
 
 2. **What emergent macroeconomic behaviors arise when individual agents operate under local rules in each system?**
 
@@ -36,13 +35,13 @@ By embedding **agents** with individual behavior rules—capitalists, households
 
 - **System A: Current Commercial Bank System**
   - Banks create money through lending
-  - Debt grows with interest
+  - Debt grows over time at the "speed of money"
   - Positive feedback loop from profit motive
 - **System B: Central Bank–Only Money Creation**
   - Central bank injects money directly (via transfers, spending, etc.)
   - Banks only allocate, not create, money
 
-Both systems will be implemented as dynamic models in Python, with configurable parameters for money supply, interest, repayment rates, GDP growth, and loss rates.
+Both systems will be implemented with python to begin with. There will be configurable parameters for money supply, interest, repayment rates, GDP growte, household outlook bias etc.
 
 ### 2. **Agent-Based Layer (Complex Adaptive Systems)**
 
@@ -61,17 +60,17 @@ Each agent will have:
 
 ### 3. **Simulation Scenarios**
 
-Run each system under:
+Each system will be run under:
 
 - **Baseline conditions**
-- **Shock scenarios** (recession, inflation, asset bubbles)
-- **Policy interventions** (UBI, interest rate controls, deficit spending)
+- **Shock scenarios** (recession, inflation, bubbles, orange presidents)
+- **Policy interventions** (Univeral basic income, interest rate controls, deficit spending, tarrifs)
 
-Compare metrics like:
+Metrics that could be compared:
 
 - GDP growth
 - Debt-to-GDP ratio
-- Insolvency rates
+- Bankrupsy/Insolvency rates
 - Output volatility
 - Money velocity
 - Inequality indicators
@@ -84,7 +83,7 @@ Compare metrics like:
   - `numpy`, `pandas`, `matplotlib`, `scipy`
   - `mesa` or `agentpy` for agent-based modeling
   - `dash` or `streamlit` for interactive visualization (optional)
-- **Markdown/Jupyter** for documentation and iteration
+- **Markdown and Tex** for documentation
 - Git for version control
 
 ---
@@ -98,15 +97,15 @@ Compare metrics like:
 
 ---
 
-## **Timeline (Tentative)**
+## **Timeline draft**
 
-| Month | Milestone                                                 |
-| ----- | --------------------------------------------------------- |
-| 1     | Literature review: Andresen, MMT, CAS, ABM, debt dynamics |
-| 2     | Basic system dynamics model coded (commercial system)     |
-| 3     | Central bank system implemented                           |
-| 4     | Agent-based layer and calibration                         |
-| 5     | Scenario simulations and stress tests                     |
-| 6     | Results analysis and robustness checks                    |
-| 7     | Writing thesis + polishing codebase                       |
-| 8     | Final submission + defense prep                           |
+| Time | Milestone                                                 |
+| ---- | --------------------------------------------------------- |
+| 1    | Literature review: Andresen, MMT, CAS, ABM, debt dynamics |
+| 2    | Basic system prooof of concept                            |
+| 3    | Iterative implementation of different agents              |
+| 4    | Interation definition                                     |
+| 5    | Interaction tuning                                        |
+| 6    | Results analysis and robustness checks                    |
+| 7    | Writing thesis + polishing codebase                       |
+| 8    | Final submission                                          |
