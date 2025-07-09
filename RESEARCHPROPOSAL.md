@@ -84,7 +84,7 @@ Metrics that could be compared:
   - `mesa` or `agentpy` for agent-based modeling
   - `dash` or `streamlit` for interactive visualization (optional)
 - **Markdown and Tex** for documentation
-- Git for version control
+- **Git** for version control
 
 ---
 
@@ -99,13 +99,13 @@ Metrics that could be compared:
 
 ## **Timeline draft**
 
-| Time | Milestone                                                 |
-| ---- | --------------------------------------------------------- |
-| 1    | Literature review: Andresen, MMT, CAS, ABM, debt dynamics |
-| 2    | Basic system prooof of concept                            |
-| 3    | Iterative implementation of different agents              |
-| 4    | Interation definition                                     |
-| 5    | Interaction tuning                                        |
-| 6    | Results analysis and robustness checks                    |
-| 7    | Writing thesis + polishing codebase                       |
-| 8    | Final submission                                          |
+| Time | Milestone                                                      |
+| ---- | -------------------------------------------------------------- |
+| 1    | Literature review: Andresen, CAS, ABM, historcal debt dynamics |
+| 2    | Basic system prooof of concept                                 |
+| 3    | Iterative implementation of different agents                   |
+| 4    | Interation definition                                          |
+| 5    | Interaction tuning                                             |
+| 6    | Results analysis and robustness checks                         |
+| 7    | Writing thesis + polishing codebase                            |
+| 8    | Final submission                                               |
