@@ -1,0 +1,16 @@
+error_table_validation_var
+error_table_validation_vecm
+error_table_validation_abm
+error_table_ar
+error_table_abm
+error_table_dsge
+error_table_validation_varx
+error_table_validation_vecmx
+error_table_validation_abmx
+error_table_arx
+error_table_abmx
+error_table_dsgex
+error_table_ar_nace10
+error_table_abm_nace10
+error_table_var_nace10
+error_table_abm_nace10_var
