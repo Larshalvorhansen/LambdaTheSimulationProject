@@ -2,9 +2,13 @@ import matplotlib.pyplot as plt
 
 # Parameters
 timesteps = 50
-loan_growth_rate = 0.05       # New loans issued per time step in System A (as % of total money)
-interest_rate = 0.02          # Interest on outstanding debt in System A
-cb_injection_rate = 0.03      # Central bank injection per time step in System B (as % of starting money)
+loan_growth_rate = (
+    0.05  # New loans issued per time step in System A (as % of total money)
+)
+interest_rate = 0.02  # Interest on outstanding debt in System A
+cb_injection_rate = (
+    0.03  # Central bank injection per time step in System B (as % of starting money)
+)
 
 # Initial conditions
 initial_money = 1000
@@ -31,7 +35,7 @@ for t in range(1, timesteps + 1):
 plt.figure(figsize=(10, 6))
 plt.plot(money_supply_A, label="System A: Money Supply")
 plt.plot(money_supply_B, label="System B: Money Supply")
-plt.plot(debt_A, label="System A: Debt", linestyle='--')
+plt.plot(debt_A, label="System A: Debt", linestyle="--")
 plt.title("Comparison of Monetary Systems Over Time")
 plt.xlabel("Time Step")
 plt.ylabel("Amount")
