@@ -10,7 +10,6 @@ in pkgs.mkShell {
     pyPackages.pandas
     pyPackages.matplotlib
     pyPackages.yfinance
-    pyPackages.mesa
     # pyPackages.pandas-datareader  # Optional
   ];
 
