@@ -10,10 +10,11 @@ in pkgs.mkShell {
     pyPackages.pandas
     pyPackages.matplotlib
     pyPackages.yfinance
-    #    pyPackages.pandas-datareader
+    pyPackages.mesa
+    # pyPackages.pandas-datareader  # Optional
   ];
 
-  # optional
+  # Optional: fix for runtime linking errors
   env.LD_LIBRARY_PATH =
     pkgs.lib.makeLibraryPath [ pkgs.zlib pkgs.openssl pkgs.stdenv.cc.cc ];
 }
