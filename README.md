@@ -6,7 +6,7 @@
         </picture>
     </a>
     <br>
-    <small>Informing and improving decision-making</small>
+    <small>With the ultimate goal of informing and improving decision-making</small>
 </h1>
 
 🌐 This GitHub project is a solo venture aimed at simulating and visualizing complex systems in order to make better decisions.
