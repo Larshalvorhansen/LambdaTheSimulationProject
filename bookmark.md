@@ -3,10 +3,10 @@
 Data pipeline
 
 - Make working baseline datafetcher for the websites listed below:
+  - [ ] [OECD Data](https://data.oecd.org) – Data on economy, society, and environment from developed countries
   - [ ] [World Bank Open Data](https://data.worldbank.org) – Extensive economic and development data
   - [ ] [IMF Data](https://data.imf.org) – International Monetary Fund economic and financial data
   - [ ] [UNdata](https://data.un.org) – United Nations statistical databases
-  - [ ] [OECD Data](https://data.oecd.org) – Data on economy, society, and environment from developed countries
   - [ ] [Eurostat](https://ec.europa.eu/eurostat) – European Union statistics
   - [ ] [Trading Economics](https://tradingeconomics.com) – Macro indicators and forecasts _(limited free API usage)_
   - [ ] [Our World in Data](https://ourworldindata.org) – Global development, health, energy, and more
