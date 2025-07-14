@@ -1,0 +1,5 @@
+futurePredictedRent
+
+totalAssets
+totalValueLended
+numberOfLenders
