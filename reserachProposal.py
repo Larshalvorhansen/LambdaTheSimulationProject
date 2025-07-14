@@ -31,6 +31,8 @@ for t in range(1, timesteps + 1):
     new_money_B = cb_injection_rate * initial_money
     money_supply_B.append(money_supply_B[-1] + new_money_B)
 
+print("Hello")
+
 # Plotting
 plt.figure(figsize=(10, 6))
 plt.plot(money_supply_A, label="System A: Money Supply")
