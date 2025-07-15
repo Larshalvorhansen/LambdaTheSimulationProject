@@ -1,6 +1,14 @@
 ## Bookmarks
 
-Data pipeline
+### Thesis
+
+- Include image from TA powerpoint on training model datapoipeline
+
+### /model
+
+- Define sudocode for agent interactons
+
+### Data pipeline
 
 - Make working baseline datafetcher for the websites listed below:
   - [ ] [OECD Data](https://data.oecd.org) – Data on economy, society, and environment from developed countries
