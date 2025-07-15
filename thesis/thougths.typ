@@ -1,4 +1,4 @@
-*Title?*
+*Thesis title*
 
 Motivation:
 - Agent based modeling is closer tied to the real world than common economic equations
