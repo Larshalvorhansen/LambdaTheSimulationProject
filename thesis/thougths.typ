@@ -15,3 +15,11 @@ Method:
 + Simulate many times (monte carlo) with random variables being reset each time
 + Compare with AR(0) and other status quo economic predictors 
 + Reajust agent paremeters, agent interactions and enviroment from result of comparison using reinforcement learning
+
+Agent definitnions:
+- Government
+- Central bank
+- Bank
+- Company
+- Household
+
