@@ -22,7 +22,7 @@
 and aims to ignite a passion for complex adaptive systems.
 -->
 
-<p>🤝 Feel free to <a href="mailto:larshalvorhansen1@gmail.com">get in touch</a> if you want to collaborate, give feedback, or explore this project together with me!</p>
+<p>🤝 Feel free to <a href="mailto:larshalvorhansen1@gmail.com">get in touch</a> if you want to collaborate or give feedback!</p>
 
 <!--
 Here is a tree structure of this project as of 16.10.2024:
@@ -202,4 +202,3 @@ LambdaSim-7
     ├── launch.json
     └── tasks.json
 -->
-
