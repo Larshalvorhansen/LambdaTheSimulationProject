@@ -6,7 +6,8 @@
 
 ### /model
 
-- Define sudocode for agent interactons
+- [] Define sudocode for agent interactons
+- [] Make a mini version similar to a vcv rack wire connection.
 
 ### Data pipeline
 
