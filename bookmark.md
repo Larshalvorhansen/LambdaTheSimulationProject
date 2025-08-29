@@ -7,7 +7,10 @@
 ### /model
 
 - [] Define sudocode for agent interactons
-- [] Make a mini version similar to a vcv rack wire connection.
+- [x] Make a mini version similar to a vcv rack wire connection.
+  - build on it
+    - [] implement click to add module
+    - [] implement doubble click module to define i/o
 
 ### Data pipeline
 
