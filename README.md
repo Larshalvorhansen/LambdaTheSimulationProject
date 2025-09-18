@@ -27,178 +27,153 @@ and aims to ignite a passion for complex adaptive systems.
 <!--
 Here is a tree structure of this project as of 16.10.2024:
 ```plaintext
-LambdaSim-7
+.
+├── bookmark.md
+├── lambdaQwen
+│   ├── __pycache__
+│   │   └── model.cpython-312.pyc
+│   ├── data.py
+│   ├── main.py
+│   ├── model.py
+│   └── shell.nix
+├── learning
+│   ├── data_and_programsFromLou2022
+│   │   ├── ar
+│   │   ├── calibration
+│   │   ├── data
+│   │   ├── figs
+│   │   ├── model
+│   │   ├── model_scaled
+│   │   └── tabs
+│   ├── learningNetlogo
+│   │   ├── '# NetLogo 6.4.md'
+│   │   ├── first.nlogo
+│   │   └── Untitled-2.sty
+│   ├── learningR
+│   │   ├── CourseFiles
+│   │   ├── read.md
+│   │   └── test.r
+│   ├── learnOptimizationFromMit
+│   │   ├── code.jl
+│   │   ├── code.py
+│   │   └── notes.md
+│   └── XGBoost
+│       └── 1.jl
+├── mainProject
+│   ├── Adjustments
+│   ├── Comparison
+│   │   └── README.md
+│   ├── DataPipeline
+│   │   ├── 2dsim.py
+│   │   ├── basicGet.py
+│   │   ├── CleaningAndFormatting
+│   │   ├── Collection
+│   │   ├── data.db
+│   │   ├── flake.lock
+│   │   ├── flake.nix
+│   │   ├── gdp_fetch.log
+│   │   ├── gdp_per_capita.db
+│   │   ├── getOECD.py
+│   │   ├── getWB.py
+│   │   ├── Labeling
+│   │   ├── Processing
+│   │   └── README.md
+│   ├── FinalModel
+│   │   └── README.md
+│   ├── Model
+│   │   ├── Agents
+│   │   ├── InitialConditions
+│   │   ├── NodesAndRelations
+│   │   ├── Output
+│   │   ├── README.md
+│   │   ├── Result
+│   │   └── Simulation
+│   ├── predictionPipelineV2.png
+│   └── README.md
+├── mesatest
+│   ├── firstMesa.py
+│   ├── mesaButNoMesa
+│   │   └── test.py
+│   └── shell.nix
 ├── plan
-│   ├── plan2.md
+│   ├── egendefinert
+│   │   ├── finalReportMal.md
+│   │   ├── fremdriftsrapport.md
+│   │   └── retningslinjer.md
+│   ├── OBSpredictionVariabler.png
+│   ├── oldPlans
+│   │   ├── obsVariabler.md
+│   │   ├── plan.md
+│   │   ├── plan2.md
+│   │   └── TrondAndresenPlan2025.md
 │   ├── planForIdag.md
 │   ├── predictionPilelineDiagramV1.pdf
-│   └── plan.md
-├── learning
-│   └── learningR
-│       ├── CourseFiles
-│       │   ├── Plot.R
-│       │   ├── .Rhistory
-│       │   ├── Assignment_Datasets
-│       │   │   ├── import.txt
-│       │   │   ├── import.xlsx
-│       │   │   └── import.csv
-│       │   ├── ImportingData_Datasets
-│       │   │   ├── mbb.xlsx
-│       │   │   ├── mbb.csv
-│       │   │   └── mbb.txt
-│       │   ├── Histograms.R
-│       │   ├── SelectingCases.R
-│       │   ├── RStudio.R
-│       │   ├── InstallingR.R
-│       │   ├── ImportingData.R
-│       │   ├── Packages.R
-│       │   ├── DataFormats.R
-│       │   ├── Describe.R
-│       │   ├── Regression.R
-│       │   ├── Scatterplots.R
-│       │   ├── EnteringData.R
-│       │   ├── _Exercise_Template.R
-│       │   ├── HierarchicalClustering.R
-│       │   ├── .RData
-│       │   ├── OverlayingPlots.R
-│       │   ├── .Rapp.history
-│       │   ├── BarCharts.R
-│       │   ├── Factors.R
-│       │   ├── Tidyverse.R
-│       │   ├── Summary.R
-│       │   └── PrincipalComponents.R
-│       ├── test.r
-│       └── read.md
-├── other
-│   ├── tenketenk.md
-│   ├── snake.py
-│   ├── verktøy.md
-│   ├── primeStuff
-│   │   ├── primtall.jl
-│   │   ├── test.py
-│   │   ├── prim.jl
-│   │   ├── rules.jl
-│   │   ├── primSoA.jl
-│   │   ├── prime.jl
-│   │   └── tempCodeRunnerFile.jl
-│   ├── m.py
-│   ├── viz.py
-│   └── sinusPlot.py
-├── README.md
+│   └── predictionPipelineV2.png
 ├── project
-│   ├── grassSim
-│   │   ├── enterprateData.py
-│   │   ├── writeRandomData.py
-│   │   ├── agents2.py
-│   │   ├── agents.py
-│   │   ├── p4e.py
-│   │   └── data
-│   │       ├── data3.csv
-│   │       ├── data2.csv
-│   │       ├── data0.csv
-│   │       ├── data1.csv
-│   │       └── data4.csv
-│   ├── approachUsingModules
-│   │   ├── modsynth.cpp
-│   │   ├── gui.jl
-│   │   ├── test.cpp
-│   │   ├── hei.cpp
-│   │   ├── rules.jl
-│   │   └── gui.py
 │   ├── approachUsingCellularAutomata
-│   │   ├── redMovingCircle.py
-│   │   ├── reynoldsFlockingModel.py
-│   │   ├── gameOfLife.py
 │   │   ├── circleEatingFood.py
-│   │   └── gameOfLifeWithAgeColors.py
-│   ├── relationalDatabase
+│   │   ├── gameOfLife.py
+│   │   ├── gameOfLifeWithAgeColors.py
+│   │   ├── redMovingCircle.py
+│   │   └── reynoldsFlockingModel.py
+│   ├── approachUsingModules
+│   │   ├── gui.jl
+│   │   ├── gui.py
+│   │   ├── hei.cpp
+│   │   ├── modsynth.cpp
+│   │   ├── rules.jl
+│   │   └── test.cpp
+│   ├── bigDatabase
+│   │   ├── md.md
+│   │   └── test.sql
+│   ├── blobEatingSim
+│   │   └── simple.py
+│   ├── finnIntrinsicValueEstimator
+│   │   ├── data
+│   │   ├── data5.csv
+│   │   ├── finn_koder.csv
+│   │   ├── finn_seach_scrape.html
+│   │   ├── main.py
 │   │   ├── README.md
-│   │   ├── calc.py
-│   │   └── commoditiesData
-│   │       ├── globalPriceOfOliveOilSeriesData.csv
-│   │       └── allCommodities.csv
+│   │   ├── test.html
+│   │   └── test2.py
+│   ├── grassSim
+│   │   ├── agents.py
+│   │   ├── agents2.py
+│   │   ├── data
+│   │   ├── enterprateData.py
+│   │   ├── p4e.py
+│   │   └── writeRandomData.py
 │   ├── logo
-│   │   ├── SimProsjektLogo.png
-│   │   ├── smallLambda.png
-│   │   ├── logoGraphic
-│   │   │   ├── lambdaMedium.png
-│   │   │   ├── reynoldInteractive.py
-│   │   │   └── lambdasimPransparentLogo.png
 │   │   ├── lambdasimWallpaper-min.png
 │   │   ├── logoGeneratorSim.py
-│   │   └── PixelnatorLogoSim.zip
-│   └── blobEatingSim
-│       └── simple.py
-├── learningNetlogo
-│   ├── first.nlogo
-│   ├── Untitled-2.sty
-│   └── # NetLogo 6.4.md
-├── .git
-│   ├── ORIG_HEAD
-│   ├── config
-│   ├── objects
-│   │   ├── d9
-│   │   │   └── 118fea7623cf5a353785f15a174c23d1545683
-│   │   ├── fd
-│   │   │   └── 9e298720e846f07d8c20f4f46f2dce7b01bc1c
-│   │   ├── pack
-│   │   │   ├── pack-11a581602089474ccd17a841101cda043e2e452a.idx
-│   │   │   ├── pack-11a581602089474ccd17a841101cda043e2e452a.rev
-│   │   │   └── pack-11a581602089474ccd17a841101cda043e2e452a.pack
-│   │   ├── 7d
-│   │   │   ├── 189c7d62f9de403cbf390f39ebca1b320a4a11
-│   │   │   └── 52a1046e440b7cb0cc3ab2644f8e0271c83e84
-│   │   ├── info
-│   │   ├── 65
-│   │   │   └── e732a1757e271e8580a7c6b6264965f20cf3c9
-│   │   ├── c3
-│   │   │   └── 6b0093cfe2a378a403017191534ea7292b8dc5
-│   │   ├── c2
-│   │   │   └── e065e9719b20cfd719ea01cf05137a86aa7f99
-│   │   └── 1b
-│   │       └── 482d065cd0476d6de9a42625800352c7653a80
-│   ├── HEAD
-│   ├── info
-│   │   └── exclude
-│   ├── logs
-│   │   ├── HEAD
-│   │   └── refs
-│   │       ├── heads
-│   │       │   └── main
-│   │       └── remotes
-│   │           └── origin
-│   │               ├── HEAD
-│   │               └── main
-│   ├── description
-│   ├── hooks
-│   │   ├── commit-msg.sample
-│   │   ├── pre-rebase.sample
-│   │   ├── sendemail-validate.sample
-│   │   ├── pre-commit.sample
-│   │   ├── applypatch-msg.sample
-│   │   ├── fsmonitor-watchman.sample
-│   │   ├── pre-receive.sample
-│   │   ├── prepare-commit-msg.sample
-│   │   ├── post-update.sample
-│   │   ├── pre-merge-commit.sample
-│   │   ├── pre-applypatch.sample
-│   │   ├── pre-push.sample
-│   │   ├── update.sample
-│   │   └── push-to-checkout.sample
-│   ├── refs
-│   │   ├── heads
-│   │   │   └── main
-│   │   ├── tags
-│   │   └── remotes
-│   │       └── origin
-│   │           ├── HEAD
-│   │           └── main
-│   ├── index
-│   ├── packed-refs
-│   ├── COMMIT_EDITMSG
-│   └── FETCH_HEAD
-└── .vscode
-    ├── settings.json
-    ├── launch.json
-    └── tasks.json
+│   │   ├── logoGraphic
+│   │   ├── PixelnatorLogoSim.zip
+│   │   ├── SimProsjektLogo.png
+│   │   └── smallLambda.png
+│   ├── practicalConcepts
+│   │   └── doublePendulum.py
+│   ├── proggeloggeTemp
+│   │   └── gui.py
+│   ├── relationalDatabase
+│   │   ├── calc.py
+│   │   ├── commoditiesData
+│   │   └── README.md
+│   ├── synthAndABM.py
+│   └── vcvApproach
+│       ├── cApproach
+│       ├── cApproach2
+│       ├── prototype1.py
+│       ├── prototype2.py
+│       ├── prototype3.py
+│       ├── prototype4.py
+│       ├── prototype5.py
+│       ├── shell.nix
+│       └── simpletype5.py
+├── README.md
+├── Research-Plan.md
+├── shell.nix
+└── thesis
+    ├── thougths.pdf
+    └── thougths.typ
 -->
