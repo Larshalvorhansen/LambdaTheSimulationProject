@@ -31,22 +31,25 @@ Some relations have many layers. These will therefore be represented as vectors 
 Agents definitnions:
 - Government
   - Inputs: taxes, internalSentimentRV, internationalsentimentRV
-  - Inner structure: peopleTBD
+  - Inner structure: politicians, police, buerocrats, experts, lobbyists?
   - Outputs: laws and regulationsL, subsedies, tax returns, rethoricR
 - Central bank
-  - Inputs
-  - Inner structure
-  - Outputs
+  - Inputs: information on the economy(bank sentiment, gdp, micor and macro indicators, globalstatistics), government funding
+  - Inner structure: people, 
+  - Outputs: rent, policieadvice? no?
 - Bank
-  - Inputs
-  - Inner structure
-  - Outputs
+  - Inputs: Rent from customers, intrest payments, government subsidies, 
+  - Inner structure: economists, finance people, assets, asset management, properties
+  - Outputs: loans, creditcards, banking infrastructure
 - Company
-  - Inputs
+  - Inputs: labour, high skilled people, low skilled people, energy, government subsidies, compute
+  - Inner structure: compute, internett services, teams of people, projects, ideas, offices
+  - Outputs: products and/or services
+- Household:
+  - Inputs: products and services
   - Inner structure
-  - Outputs
-- Household
-  - Inputs
-  - Inner structure
-  - Outputs
-
+  - Outputs: new people, education,
+- Schools/universities:
+  - Inputs: Low skilled people, resources
+  - Inner structure: campuses, doormrooms, parks, libraries, computers, datacenteres, staff, information, internett
+  - Outputs: high skilled people, spinnoffs, companies, startups, ideas, research, science
