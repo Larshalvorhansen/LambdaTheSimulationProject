@@ -1,5 +1,9 @@
 ## Bookmarks
 
+### Note to self
+
+Bedre med små prototyper enn uferdige store prosjekt.
+
 ### Thesis
 
 - Include image from TA powerpoint on training model datapoipeline
@@ -9,8 +13,9 @@
 - [] Define sudocode for agent interactons
 - [x] Make a mini version similar to a vcv rack wire connection.
   - build on it
-    - [] implement click to add module
-    - [] implement doubble click module to define i/o
+    - [x] implement click to add module
+    - [x] implement doubble click module to define i/o
+    - [ ]
 
 ### Data pipeline
 
