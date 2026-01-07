@@ -1,0 +1,49 @@
+Country A
+- Power of leader vs government
+- Leader:
+  - Personality
+    - a
+    - b
+    - c
+    - d
+- Government:
+  - Personality: 
+    - a
+    - b
+    - c
+    - d
+- Long term plan/goals
+  - a
+  - b
+  - c
+- Short term plan
+  - a
+  - b
+  - c
+History
+  - a
+  - b
+  - c
+
+Country B
+...
+...
+
+Country ...
+
+
+realtionship matrix trade:
+contry 1-7 X contry 1-7
+
+realtionship matrix culture:
+contry 1-7 X contry 1-7
+
+realtionship matrix geography:
+contry 1-7 X contry 1-7
+
+realtionship matrix power:
+contry 1-7 X contry 1-7
+
+realtionship matrix dependance:
+contry 1-7 X contry 1-7
+
