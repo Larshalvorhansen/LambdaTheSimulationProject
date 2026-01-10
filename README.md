@@ -2,7 +2,7 @@
     <a href="">
         <picture>
           <source media="(prefers-color-scheme: dark)">
-          <img alt="Lambdasim" src="project/logo/lambdasimWallpaper-min.png" width="500">
+          <img alt="Lambdasim" src="project/aproaches/lambdasimWallpaper-min.png" width="500">
         </picture>
     </a>
     <br>
