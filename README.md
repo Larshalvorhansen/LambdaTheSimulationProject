@@ -13,7 +13,7 @@
 
 <!-- 🌱 It starts simply with an agent moving randomly and eating randomly generated food, laying the foundation for emergent complexity. -->
 
-👥 The repository serves as a starting point where the end goal is to simulate macroeconomic effects in society in general using agent based modeling.
+👥 The repository serves as a starting point where the end goal is to simulate macroeconomic effects in society by utilizing the merits of <a href= "https://en.wikipedia.org/wiki/Agent-based_model">agent based modeling</a>.
 🏙️ I.e. testin potential outcomes of various economic/political policies on simulated "agents".
 
 🎨The simulation seeks to be both visually informative aspects easily editable parameters enableing a rapid human in the loop system.
