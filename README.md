@@ -9,7 +9,7 @@
     <small>With the ultimate goal of informing and improving decision making</small>
 </h1>
 
-🌐 This GitHub project is a solo venture aimed at simulating and visualizing complex systems in order to make better decisions.
+🌐 This GitHub project is currently a solo venture aimed at simulating and visualizing complex systems in order to make better decisions.
 
 <!-- 🌱 It starts simply with an agent moving randomly and eating randomly generated food, laying the foundation for emergent complexity. -->
 
