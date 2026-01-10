@@ -1,4 +1,3 @@
-```markdown
 # Approaches - Experimental Implementations
 
 This is a collection of experimental approaches and small-scale tests for the Lambda Simulation Project. Each folder represents a unique approach or concept that is tested independently of the main project.
@@ -59,4 +58,3 @@ Successful experiments from here can become the foundation for components in the
 ---
 
 *For the main project's structure and overall overview, see [README.md](../README.md) in the root folder.*
-```
